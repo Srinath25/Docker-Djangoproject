@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,10 +7,10 @@
         <title>Srinath's Resume</title>
     </head>   
     <body>
-        <h1><u><img src="love-hearts.gif" width="30" height="30">Greetings!!!</img> <img src="love-hearts.gif" width="30" height="30"> Welcome to My First Webpage!</img><img src="love-hearts.gif" width="30" height="30"></img></u></h1>
+        <h1><u><img src="{%static love-hearts.gif%}" width="30" height="30">Greetings!!!</img> <img src="{%static love-hearts.gif%}" width="30" height="30"> Welcome to My First Webpage!</img><img src="{%static love-hearts.gif%}" width="30" height="30"></img></u></h1>
         <hr>
         <b>Hi! I am Srinath. 
-           <img src="skype-like.gif" width="25" height="25">
+           <img src="{% static skype-like.gif%}" width="25" height="25">
            <br> Thank you for your time to check my resume.
            <br><a href="https://www.linkedin.com/in/srinath-ravi-72a2a41a3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlFOy26%2BOTmeENIc2r8QnkA%3D%" target="_blank">My Linkedin Profile.</a>
         </img>
@@ -25,25 +26,25 @@
         <hr>
         <h1>My badges and certificates recently I have earned.</h1>
         <p>
-            <img src="aws-certified-solutions-architect-associate.png" width="150" height="150"> 
+            <img src="{% static aws-certified-solutions-architect-associate.png%}" width="150" height="150"> 
             <br><a href="https://www.credly.com/badges/77bf133e-f864-4ff5-a5c5-b90763aaba37/public_url" target="_blank"><b>You can check the official badge issued by AWS Certified Solutions Architect – Associate by clicking here.</b></a>
             <br>Earners of this certification have a comprehensive understanding of AWS services and technologies. 
             <br>They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. 
             <br>Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.</img>
         </p>
         <p>
-            <img src="aws-knowledge-architecting (2).png" width="150" height="150"> 
+            <img src="{%static aws-knowledge-architecting (2).png%}" width="150" height="150"> 
             <br><a href="https://www.credly.com/badges/c671e6a6-f7d4-460b-8ae3-41e74e36eba4/public_url" target="_blank"><b>You can check the official badge issued by AWS Certified AWS Knowledge: Architecting by clicking here.</b></a>
             <br>Earners of this badge have developed technical skills and knowledge of AWS concepts and services with a focus on designing solutions on AWS using best practices.
         </p>
         <p>
-            <img src="aws-cloud-quest-cloud-practitioner (2).png" width="150" height="150"> 
+            <img src="{%static aws-cloud-quest-cloud-practitioner (2).png%}" width="150" height="150"> 
             <br><a href="https://www.credly.com/badges/d1cdf153-e29e-48fd-b5b7-a26564298f6c/public_url" target="_blank"><b>You can check the official badge issued by AWS Certified AWS Cloud Quest: Cloud Practitioner by clicking here.</b></a>
             <br>Earners of this badge have demonstrated basic solution building knowledge using AWS services and have a fundamental understanding of AWS Cloud concepts.
             <br>Badge earners have acquired hands-on experience with compute, networking, database and security services.
         </p>
         <p>
-            <img src="CrashcourseonPython.png" width="300" height="200"> 
+            <img src="{%static CrashcourseonPython.png%}" width="300" height="200"> 
             <br><a href="https://coursera.org/share/074dbddf50e4bad0b3317e0e3a69d71a" target="_blank"><b>You can check the official certificate issued by Google about Python by clicking here.</b></a>
             <br>In this course, I have learned the basic Python data structures, Fundamental programming concepts, Basic Python syntax, and Object-Oriented Programming(OOP), and earned the certificate with <b>92.50%</b>.
         </p>
